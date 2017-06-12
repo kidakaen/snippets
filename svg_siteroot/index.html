@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mikaela Smith SVG's</title>
+</head>
+
+<body>
+    <div id="SVGCircle">
+        <svg width="110" height="110">
+          <circle cx="55" cy="55" r="50" fill="red" />
+        </svg>
+
+
+    </div>
+    <div id="SVGSquare">
+        <svg width="155" height="155">
+        <rect width="150" height="150" fill="blue" />
+      </svg>
+
+    </div>
+
+    <div id="canvasSection">
+        <canvas id="tutorial" width="500" height="500" style="border:1px solid #000000;"></canvas>
+        <script>
+            var c = document.getElementById("tutorial");
+            var ctx = c.getContext("2d");
+
+            ctx.beginPath();
+            ctx.arc(100, 100, 100, 0 * Math.PI, 2 * Math.PI);
+            ctx.fillStyle = "green";
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.rect(325, 325, 175, 175);
+            ctx.fillStyle = "purple";
+            ctx.fill();
+        </script>
+
+
+    </div>
+
+</body>
+
+</html>
