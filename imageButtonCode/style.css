@@ -1,0 +1,49 @@
+  .courseButton {
+    background-image: url(http://sneakon.com/wp-content/uploads/2015/12/homePage_coursePhoto_blue.jpg);
+    min-width: 200px;
+    max-width: 500px;
+    color: white;
+    padding: 20px;
+  }
+
+  .courseButton:hover {
+    background-color: yellow;
+  }
+
+  .courseButton:hover {
+    border: 1px;
+    border-color: red;
+  }
+
+  .courseButtonText {
+    color: white;
+    text-align: left;
+    padding: 150px 0 0 0;
+    margin: 0;
+  }
+
+  .courseButton h4 {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  .courseButton p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .courseButton2 {
+    position: relative;
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    color: white;
+  }
+
+  .courseButtonText2 {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
